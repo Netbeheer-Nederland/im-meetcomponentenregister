@@ -1,0 +1,85 @@
+# Meetcomponentenregister
+
+Register met gegevens over meters en meetgateways die worden beheerd door Nederlandse netbeheerders.
+
+URI: https://netbeheernederland.nl/conceptueelinformatiemodel/meetcomponentenregister
+
+Name: meetcomponentenregister
+
+
+
+## Classes
+
+| Class | Description |
+| --- | --- |
+| [Aansluiting](Aansluiting.md) | None |
+| [AllocatiepuntBijAansluiting](AllocatiepuntBijAansluiting.md) | None |
+| [Any](Any.md) | None |
+| [Gatewayadapter](Gatewayadapter.md) | apparaat bedoeld om een meetgateway te voorzien van voeding en gebruikersinterface |
+| [Gatewaycodering](Gatewaycodering.md) | None |
+| [GCvO-installatie](GCvO-installatie.md) | None |
+| [Marktpartijregistratie](Marktpartijregistratie.md) | None |
+| [Meetcomponent](Meetcomponent.md) | apparaat dat energie-uitwisseling meet of deze meting op afstand uitleesbaar maakt |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Meetgateway](Meetgateway.md) | apparaat bedoeld om meters op afstand uitleesbaar te maken, zonder zelf energie-uitwisseling te meten |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Meter](Meter.md) | apparaat bedoeld om energie-uitwisseling te meten ten behoeve van de verrekening |
+| [Metercodering](Metercodering.md) | None |
+| [TelwerkMetCijferaanduiding](TelwerkMetCijferaanduiding.md) | onderdeel van een meter dat een hoeveelheid energie registreert, met een aanduiding die niet rechtstreeks verwijst naar de betekenis of functie van het telwerk |
+| [Telwerkdefinitie](Telwerkdefinitie.md) | None |
+
+
+
+## Slots
+
+| Slot | Description |
+| --- | --- |
+| [aanduiding](aanduiding.md) | zichtbaar cijfer of vaste afleespositie waarmee dit telwerk op de meter wordt... |
+| [batterijtype](batterijtype.md) | chemisch type van de ingebouwde primaire batterij, bedoeld voor langdurige au... |
+| [batterijvervangingsdatum](batterijvervangingsdatum.md) | datum waarop de batterij voor het laatst is vervangen |
+| [beheerd_door](beheerd_door.md) | identificeert de marktpartij (netbeheerder) die verantwoordelijk is voor het ... |
+| [bouwjaar](bouwjaar.md) | jaar van productie of revisie zoals vermeld op het apparaat of geregistreerd ... |
+| [communicatiemiddel_voor](communicatiemiddel_voor.md) |  |
+| [correctiefactor_voor_indirecte_meting](correctiefactor_voor_indirecte_meting.md) | factor waarmee het getal van de telwerken vermenigvuldigd moet worden om de m... |
+| [deel_van](deel_van.md) |  |
+| [DSMR_versie](DSMR_versie.md) | versie van de Dutch Smart Meter Requirements (DSMR) waaraan de meter voldoet |
+| [gatewaynummer](gatewaynummer.md) | identificatie van de meetgateway, bestaande uit een combinatie van gatewaycod... |
+| [gedefinieerd_volgens](gedefinieerd_volgens.md) |  |
+| [identificatie](identificatie.md) | unieke aanduiding waarmee een instantie van een object binnen een gegeven con... |
+| [ingedeeld_naar](ingedeeld_naar.md) |  |
+| [lokaal_communicatieprotocol](lokaal_communicatieprotocol.md) | protocol voor gegevensuitwisseling binnen een beperkte reikwijdte |
+| [meetmiddel_voor](meetmiddel_voor.md) |  |
+| [meternummer](meternummer.md) | identificatie van de meter, bestaande uit een combinatie van metercode, serie... |
+| [ondersteuning_voor](ondersteuning_voor.md) |  |
+| [reden_technisch_niet_op_afstand_uitleesbaar](reden_technisch_niet_op_afstand_uitleesbaar.md) | verklaring voor het technisch niet op afstand uitleesbaar zijn van de meter |
+| [serienummer](serienummer.md) | unieke code die door de fabrikant aan een exemplaar uit een reeks producten g... |
+| [technisch_op_afstand_uitleesbaar](technisch_op_afstand_uitleesbaar.md) | kenmerk dat weergeeft of de meter gelet op externe factoren van technische aa... |
+| [typeaanduiding](typeaanduiding.md) | naam die door een fabrikant aan een reeks producten met vergelijkbare eigensc... |
+| [verzegeldatum](verzegeldatum.md) | datum waarop het apparaat voor het laatst metrologisch is verzegeld ter waarb... |
+| [zegelcategorie](zegelcategorie.md) | classificatie van de fabriekszegelstatus |
+
+
+## Enumerations
+
+| Enumeration | Description |
+| --- | --- |
+| [Batterijtype](Batterijtype.md) |  |
+| [LokaalCommunicatieprotocol](LokaalCommunicatieprotocol.md) |  |
+| [RedenTechnischNietOpAfstandUitleesbaar](RedenTechnischNietOpAfstandUitleesbaar.md) |  |
+| [Zegelcategorie](Zegelcategorie.md) |  |
+
+
+## Types
+
+| Type | Description |
+| --- | --- |
+| [Cijfer](Cijfer.md) | enkel karakter dat een numeriek symbool weergeeft |
+| [Datum](Datum.md) | kalenderdatum, zonder tijdsaanduiding |
+| [GeheelGetal](GeheelGetal.md) | getal zonder decimalen |
+| [Getal](Getal.md) | voorstelling van een hoeveelheid |
+| [Tekst](Tekst.md) | aanduiding bedoeld voor mensen, zonder vaste structuur of betekenis |
+| [WaarOfOnwaar](WaarOfOnwaar.md) | binaire aanduiding die aangeeft of een propositie of kenmerk van toepassing i... |
+
+
+## Subsets
+
+| Subset | Description |
+| --- | --- |

@@ -1,0 +1,6 @@
+name: im-meetcomponentenregister
+version: v0
+title: Meetcomponentenregister
+nav:
+- modules/ROOT/nav.adoc
+- modules/ontology/nav.adoc
