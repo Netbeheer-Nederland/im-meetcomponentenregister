@@ -1,0 +1,10 @@
+[project]
+name = "im-aansluitingenregister"
+requires-python = ">=3.12,<4"
+dependencies = [
+    "linkml >= 1.8.4, < 1.9",
+    "linkml-runtime >= 1.8.1, < 1.9",
+    # "gen-ontology-docs @ git+https://github.com/Netbeheer-Nederland/gen-ontology-docs.git@v0.1.0",
+]
+
+version = "1.1.0"  # Required version which is not used by us.
